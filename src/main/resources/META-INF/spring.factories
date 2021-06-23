@@ -1,0 +1,3 @@
+org.springframework.boot.env.EnvironmentPostProcessor=fun.fanx.remote.config.RemoteConfigLoadPostProcessor
+# 注册用于打印日志
+org.springframework.context.ApplicationListener=fun.fanx.remote.config.RemoteConfigLoadPostProcessor

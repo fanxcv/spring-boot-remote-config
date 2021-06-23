@@ -1,0 +1,6 @@
+xc:
+  config:
+    remote:
+      - file:///Users/fan/remote-config/src/main/resources/test.yml # 换成网络路径即可
+remote:
+  test: 原始数据 # 远程配置文件里的配置会优先于项目配置使用
